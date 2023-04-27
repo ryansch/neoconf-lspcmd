@@ -1,5 +1,5 @@
 local Util = require("neoconf.util")
-local logger = require("util.logger").new({
+local logger = require("plenary.log").new({
 	plugin = "neoconf-lspcmd",
 	level = "info",
 })
